@@ -18,7 +18,9 @@ const LandingSection = () => (
     <VStack spacing={8}>
     <VStack spacing={3}>
 
-    <Avatar name="BHARATHAN" src="/PIC.jpg" size="2xl" />
+    <Avatar name="BHARATHAN" src={`${process.env.PUBLIC_URL}/PIC.jpg`} size="2xl" />
+
+
 
 <Heading size="md">{greeting}</Heading>
     </VStack>
